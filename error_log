@@ -1,0 +1,31 @@
+[08-Sep-2022 07:16:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=4700 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=4704 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=4689 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:10 UTC] PHP Warning:  Error while sending QUERY packet. PID=4736 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=4744 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=4690 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=4750 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:11 UTC] PHP Warning:  Error while sending QUERY packet. PID=4698 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=4696 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[08-Sep-2022 07:16:12 UTC] PHP Warning:  Error while sending QUERY packet. PID=4712 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[12-Sep-2022 07:03:13 UTC] WordPress database error Deadlock found when trying to get lock; try restarting transaction for query DELETE FROM `wpjr_options` WHERE `option_name` = '_transient_global_styles_svg_filters_hyori' made by require('wp-blog-header.php'), require_once('wp-includes/template-loader.php'), include('/plugins/elementor/modules/page-templates/templates/canvas.php'), Elementor\Modules\PageTemplates\Module::body_open, wp_body_open, do_action('wp_body_open'), WP_Hook->do_action, WP_Hook->apply_filters, wp_global_styles_render_svg_filters, wp_get_global_styles_svg_filters, get_transient, delete_option
+[15-Oct-2022 20:24:40 UTC] The WC_Customer::get_country function is deprecated since version 3.0. Replace with WC_Customer::get_billing_country.
+[15-Oct-2022 20:25:39 UTC] The WC_Customer::get_country function is deprecated since version 3.0. Replace with WC_Customer::get_billing_country.
+[15-Oct-2022 20:26:06 UTC] The WC_Customer::get_country function is deprecated since version 3.0. Replace with WC_Customer::get_billing_country.
+[15-Oct-2022 20:26:43 UTC] The WC_Customer::get_country function is deprecated since version 3.0. Replace with WC_Customer::get_billing_country.
+[15-Oct-2022 20:26:54 UTC] The WC_Customer::get_country function is deprecated since version 3.0. Replace with WC_Customer::get_billing_country.
+[16-Oct-2022 01:40:04 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[16-Oct-2022 01:44:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[16-Oct-2022 01:45:16 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[16-Oct-2022 01:50:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[16-Oct-2022 03:07:29 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[11-Feb-2023 22:34:10 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[14-Feb-2023 19:29:02 UTC] PHP Warning:  Error while sending QUERY packet. PID=1356651 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[14-Feb-2023 19:29:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=1356595 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[14-Feb-2023 19:29:03 UTC] PHP Warning:  Error while sending QUERY packet. PID=1356596 in /home/shinotec/public_html/refyl.com.ng/wp-includes/wp-db.php on line 2169
+[11-Mar-2023 03:51:43 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[11-Mar-2023 03:53:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[11-Mar-2023 03:54:22 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[11-Mar-2023 03:57:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[13-Mar-2023 14:57:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307
+[13-Mar-2023 17:03:56 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/shinotec/public_html/refyl.com.ng/wp-content/plugins/oneclick-whatsapp-order/includes/buttons/wa-order-cart-page.php on line 307

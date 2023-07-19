@@ -1,0 +1,207 @@
+[STEP] [2023-03-09 23:49:42] Looking for PHP CLI executable file.
+[WARN] [2023-03-09 23:49:42] PHP CLI is disabled in your php.ini file, the process may be unstable.
+[WARN] [2023-03-09 23:49:42] PHP CLI file cannot be executed due to unknown reason.
+[STEP] [2023-03-09 23:49:42] Initializing backup...
+[INFO] [2023-03-09 23:49:42] Backup & Migration version: 1.2.7
+[INFO] [2023-03-09 23:49:42] Site which will be backed up: https://refyl.com.ng
+[INFO] [2023-03-09 23:49:42] PHP Version: 7.3.33
+[INFO] [2023-03-09 23:49:42] WP Version: 6.0.2
+[INFO] [2023-03-09 23:49:42] MySQL Version: 5.5.5
+[INFO] [2023-03-09 23:49:42] MySQL Max Length: 268435456
+[INFO] [2023-03-09 23:49:42] Web server: Apache
+[INFO] [2023-03-09 23:49:42] Max execution time (in seconds): 259200
+[INFO] [2023-03-09 23:49:42] Max rows per query (this site): 2000
+[INFO] [2023-03-09 23:49:42] Checking if backup dir is writable...
+[INFO] [2023-03-09 23:49:42] Initializing custom error handler
+[SUCCESS] [2023-03-09 23:49:42] Yup it is writable...
+[STEP] [2023-03-09 23:49:42] Scanning files...
+[STEP] [2023-03-09 23:49:43] Checking free space, reserving...
+[INFO] [2023-03-09 23:49:43] Requires at least 586504740 bytes. [559.33 MB]
+[INFO] [2023-03-09 23:49:43] Disk free space function is not disabled - using it...
+[INFO] [2023-03-09 23:49:43] Checking this path/partition: /home/shinotec/public_html/refyl.com.ng/wp-content/backup-migration-Xcab3Hvziw/backups
+[SUCCESS] [2023-03-09 23:49:43] There is 196,593.84 MB free. [191.99 GB]
+[SUCCESS] [2023-03-09 23:49:43] Great! We have enough space.
+[SUCCESS] [2023-03-09 23:49:43] Confirmed, there is more than enough space, checked: 586504740 bytes
+[INFO] [2023-03-09 23:49:43] Scanning done - found 12589 files...
+[SUCCESS] [2023-03-09 23:49:43] Backup initialized...
+[STEP] [2023-03-09 23:49:43] Initializing archiving system...
+[SUCCESS] [2023-03-09 23:49:43] Archive system initialized...
+[STEP] [2023-03-09 23:49:43] Preparing map of files...
+[SUCCESS] [2023-03-09 23:49:43] Files prepared.
+[INFO] [2023-03-09 23:49:43] Starting compression process...
+[STEP] [2023-03-09 23:49:43] Smart memory calculation...
+[INFO] [2023-03-09 23:49:43] There is 512 MBs of memory to use
+[INFO] [2023-03-09 23:49:43] WordPress memory limit: 512 MBs
+[SUCCESS] [2023-03-09 23:49:43] Setting the safe limit to 115 MB
+[INFO] [2023-03-09 23:49:43] Using PclZip module to create the backup
+[INFO] [2023-03-09 23:49:43] Legacy setting: Using default modules depending on user server
+[STEP] [2023-03-09 23:49:43] Making database backup (using v3 engine, requires at least v1.2.2 to restore)
+[INFO] [2023-03-09 23:49:43] Iterating database...
+[INFO] [2023-03-09 23:49:43] Memory usage after initialization: 101.77 MB
+[INFO] [2023-03-09 23:49:43] Scan found 68 tables (10119 rows), estimated total size: 41.2 MB.
+[INFO] [2023-03-09 23:49:43] Memory usage after getting table names: 101.82 MB 
+[INFO] [2023-03-09 23:49:43] Getting table recipes...
+[INFO] [2023-03-09 23:49:43] Table recipes have been exported.
+[INFO] [2023-03-09 23:49:43] Memory usage after loading recipes: 101.89 MB 
+[INFO] [2023-03-09 23:49:43] Saving recipes...
+[INFO] [2023-03-09 23:49:43] Recipes saved.
+[INFO] [2023-03-09 23:49:43] Memory usage after recipe off-load: 102.42 MB
+[INFO] [2023-03-09 23:49:43] Exporting table data...
+[STEP] [2023-03-09 23:49:43] Getting data of table: wpjr_actionscheduler_actions (1/68, 0.17 MB)
+[SUCCESS] [2023-03-09 23:49:43] Table export for: wpjr_actionscheduler_actions finished (0.09198s)
+[STEP] [2023-03-09 23:49:43] Getting data of table: wpjr_actionscheduler_claims (2/68, 0.03 MB)
+[INFO] [2023-03-09 23:49:43] Table wpjr_actionscheduler_claims is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:43] Getting data of table: wpjr_actionscheduler_groups (3/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:49:43] Table export for: wpjr_actionscheduler_groups finished (0.00235s)
+[STEP] [2023-03-09 23:49:43] Getting data of table: wpjr_actionscheduler_logs (4/68, 0.08 MB)
+[SUCCESS] [2023-03-09 23:49:44] Table export for: wpjr_actionscheduler_logs finished (0.09541s)
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_commentmeta (5/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:49:44] Table export for: wpjr_commentmeta finished (0.00391s)
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_comments (6/68, 0.11 MB)
+[SUCCESS] [2023-03-09 23:49:44] Table export for: wpjr_comments finished (0.00810s)
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_e_events (7/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:49:44] Table export for: wpjr_e_events finished (0.00201s)
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_e_submissions (8/68, 0.28 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_e_submissions is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_e_submissions_actions_log (9/68, 0.13 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_e_submissions_actions_log is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_e_submissions_values (10/68, 0.05 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_e_submissions_values is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_links (11/68, 0.03 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_links is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_litespeed_url (12/68, 0.05 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_litespeed_url is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_litespeed_url_file (13/68, 0.09 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_litespeed_url_file is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_loginizer_logs (14/68, 0.02 MB)
+[INFO] [2023-03-09 23:49:44] Table wpjr_loginizer_logs is empty, saving only recipe.
+[STEP] [2023-03-09 23:49:44] Getting data of table: wpjr_options (15/68, 5.38 MB)
+[SUCCESS] [2023-03-09 23:49:46] Table export for: wpjr_options finished (2.06140s)
+[STEP] [2023-03-09 23:49:46] Getting data of table: wpjr_postmeta (16/68, 16.02 MB)
+[SUCCESS] [2023-03-09 23:49:52] Table export for: wpjr_postmeta finished (6.64002s)
+[STEP] [2023-03-09 23:49:52] Getting data of table: wpjr_posts (17/68, 16.42 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_posts finished (7.49188s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_css (18/68, 0.14 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_revslider_css finished (0.08163s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_css_bkp (19/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_revslider_css_bkp finished (0.00635s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_layer_animations (20/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_layer_animations is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_layer_animations_bkp (21/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_layer_animations_bkp is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_navigations (22/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_navigations is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_navigations_bkp (23/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_navigations_bkp is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_sliders (24/68, 0.06 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_revslider_sliders finished (0.00148s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_sliders_bkp (25/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_sliders_bkp is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_slides (26/68, 0.06 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_revslider_slides finished (0.00180s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_slides_bkp (27/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_slides_bkp is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_static_slides (28/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_revslider_static_slides finished (0.00103s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_revslider_static_slides_bkp (29/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_revslider_static_slides_bkp is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_snippets (30/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_snippets finished (0.00173s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_term_relationships (31/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_term_relationships finished (0.00393s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_term_taxonomy (32/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_term_taxonomy finished (0.00555s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_termmeta (33/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_termmeta finished (0.00496s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_terms (34/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_terms finished (0.07424s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_usermeta (35/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_usermeta finished (0.01190s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_users (36/68, 0.06 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_users finished (0.00232s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_admin_note_actions (37/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_admin_note_actions finished (0.01434s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_admin_notes (38/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_admin_notes finished (0.08473s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_category_lookup (39/68, 0.02 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_category_lookup finished (0.00176s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_customer_lookup (40/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_customer_lookup finished (0.00262s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_download_log (41/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_download_log is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_order_coupon_lookup (42/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_order_coupon_lookup is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_order_product_lookup (43/68, 0.08 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_order_product_lookup finished (0.00298s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_order_stats (44/68, 0.06 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_order_stats finished (0.00315s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_order_tax_lookup (45/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_order_tax_lookup is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_product_attributes_lookup (46/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_product_attributes_lookup is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_product_download_directories (47/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_product_download_directories finished (0.00154s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_product_meta_lookup (48/68, 0.11 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_product_meta_lookup finished (0.06790s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_rate_limits (49/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_rate_limits is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_reserved_stock (50/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_reserved_stock is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_tax_rate_classes (51/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_wc_tax_rate_classes finished (0.00144s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_wc_webhooks (52/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_wc_webhooks is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_api_keys (53/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_api_keys is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_attribute_taxonomies (54/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_woocommerce_attribute_taxonomies finished (0.00175s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_downloadable_product_permissions (55/68, 0.08 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_downloadable_product_permissions is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_log (56/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_log is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_order_itemmeta (57/68, 0.05 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_woocommerce_order_itemmeta finished (0.01357s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_order_items (58/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_woocommerce_order_items finished (0.00289s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_payment_tokenmeta (59/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_payment_tokenmeta is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_payment_tokens (60/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_payment_tokens is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_sessions (61/68, 0.03 MB)
+[SUCCESS] [2023-03-09 23:50:00] Table export for: wpjr_woocommerce_sessions finished (0.00160s)
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_shipping_zone_locations (62/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_shipping_zone_locations is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_shipping_zone_methods (63/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_shipping_zone_methods is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_shipping_zones (64/68, 0.02 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_shipping_zones is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_tax_rate_locations (65/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_tax_rate_locations is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_woocommerce_tax_rates (66/68, 0.08 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_woocommerce_tax_rates is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_yith_wcwl (67/68, 0.03 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_yith_wcwl is empty, saving only recipe.
+[STEP] [2023-03-09 23:50:00] Getting data of table: wpjr_yith_wcwl_lists (68/68, 0.05 MB)
+[INFO] [2023-03-09 23:50:00] Table wpjr_yith_wcwl_lists is empty, saving only recipe.
+[INFO] [2023-03-09 23:50:00] Table data exported.
+[INFO] [2023-03-09 23:50:00] Memory usage after data export: 104.00 MB
+[INFO] [2023-03-09 23:50:00] Entire process took: 17.1276 s
+[SUCCESS] [2023-03-09 23:50:00] Database backup finished
+[STEP] [2023-03-09 23:50:00] Making archive
+[INFO] [2023-03-09 23:50:00] Compressing...
+[WARN] [2023-03-09 23:50:00] Backup will run as single-request, may be unstable...
+[STEP] [2023-03-09 23:50:00] Adding database SQL file(s) to the backup file.
+[SUCCESS] [2023-03-09 23:50:04] Database added to the backup successfully.
+[STEP] [2023-03-09 23:50:04] Performing site files backup...
+[INFO] [2023-03-09 23:50:04] Chunks contain 1000 files.
+[INFO] [2023-03-09 23:50:12] Milestone: 1000/12589
+[INFO] [2023-03-09 23:50:23] Milestone: 2000/12589
+[INFO] [2023-03-09 23:50:34] Milestone: 3000/12589
+[INFO] [2023-03-09 23:50:44] Milestone: 4000/12589
+[INFO] [2023-03-09 23:50:51] Milestone: 5000/12589
+[INFO] [2023-03-09 23:51:01] Milestone: 6000/12589
+[INFO] [2023-03-09 23:51:25] Milestone: 7000/12589
+[INFO] [2023-03-09 23:51:57] Milestone: 8000/12589
+[INFO] [2023-03-09 23:52:27] Milestone: 9000/12589
+[INFO] [2023-03-09 23:53:00] Milestone: 10000/12589
+[INFO] [2023-03-09 23:54:21] Milestone: 11000/12589

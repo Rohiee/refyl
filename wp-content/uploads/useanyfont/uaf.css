@@ -1,0 +1,13 @@
+				@font-face {
+					font-family: 'diodrum-cyrillic';
+					src: url('/wp-content/uploads/useanyfont/5557Diodrum-cyrillic.woff2') format('woff2'),
+						url('/wp-content/uploads/useanyfont/5557Diodrum-cyrillic.woff') format('woff');
+					  font-display: auto;
+				}
+
+				.diodrum-cyrillic{font-family: 'diodrum-cyrillic' !important;}
+
+						h1, h2, h3, h4, h5, h6{
+					font-family: 'diodrum-cyrillic' !important;
+				}
+		
